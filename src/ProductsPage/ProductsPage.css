@@ -1,0 +1,33 @@
+@media(min-width: 768px){ 
+    .gridStyle {
+        height: 300px;
+        border: 1px solid;
+    } 
+    .imgStyle {
+        width: 75%;
+    }   
+    .watchText {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .gridStyl {
+        border: 5px solid lightgray;
+    }
+} 
+
+@media(max-width: 767px){ 
+    .gridStyle {
+        height: 250px;
+        border: 1px solid;
+    }
+    .imgStyle {
+        width: 75%;
+    }   
+    .watchText {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .gridStyl {
+        border: 5px solid lightgray;
+    }
+}
